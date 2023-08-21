@@ -57,7 +57,7 @@ const TABLE_ROWS = [
 
 const License = () => {
   return (
-    <div className="mx-auto container mt-32">
+    <div className="mx-auto container mt-40">
       <Navbar />
       <Card className="font-poppins">
         <CardHeader
@@ -146,11 +146,14 @@ const License = () => {
                           </IconButton>
                         </Link>
                         <Link to="/update">
-                        <IconButton color="blue">
-                          <AiOutlineEdit />
-                        </IconButton>
+                          <IconButton color="blue">
+                            <AiOutlineEdit />
+                          </IconButton>
                         </Link>
-                        <IconButton color="red" onClick={() => confirm('Delete ?')}>
+                        <IconButton
+                          color="red"
+                          onClick={() => confirm("Delete ?")}
+                        >
                           <AiOutlineDelete />
                         </IconButton>
                       </Typography>
