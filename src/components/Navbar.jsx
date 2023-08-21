@@ -28,7 +28,10 @@ export default function StickyNavbar() {
         color="blue-gray"
         className="p-1 font-normal"
       >
-        <Link to="/license" className="flex items-center font-poppins text-xl hover:text-orange-600">
+        <Link
+          to="/license"
+          className="flex items-center font-poppins text-xl hover:text-orange-600"
+        >
           Expire License
         </Link>
       </Typography>
@@ -37,7 +40,7 @@ export default function StickyNavbar() {
 
   return (
     <div className="">
-      <Navbar className="fixed top-1 z-10 h-max w-full rounded-xl py-2 px-4 lg:px-8 lg:py-4">
+      <Navbar className="fixed top-6 z-10 h-max w-full rounded-xl py-2 px-4 lg:px-8 lg:py-4">
         <div className="flex items-center justify-between text-blue-gray-900">
           <Link to="/">
             <div className="flex items-center h-[3rem]">
