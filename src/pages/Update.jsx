@@ -8,7 +8,7 @@ import {
   Checkbox,
   Input,
   Select,
-  Option
+  Option,
 } from "@material-tailwind/react";
 
 import { BsBackspace } from "react-icons/bs";
@@ -16,7 +16,7 @@ import { Link } from "react-router-dom";
 import Navbar from "../components/Navbar";
 const Update = () => {
   return (
-    <div className="mx-auto container mt-32">
+    <div className="mx-auto container mt-40">
       <Navbar />
       <Card className="font-poppins">
         <CardHeader
@@ -25,7 +25,7 @@ const Update = () => {
           className="mb-8 p-6 flex justify-between items-center"
         >
           <Typography variant="h5" color="white">
-          Update License
+            Update License
           </Typography>
           <Link to="/license">
             <Button
@@ -41,7 +41,7 @@ const Update = () => {
         <CardBody className="px-3 pt-0 pb-5">
           <Card color="transparent" className="w-full" shadow={false}>
             <form className="mb-2">
-              <div className="grid grid-cols-1 gap-3 lg:grid-cols-4">
+              <div className="grid grid-cols-auto gap-3 lg:grid-cols-4">
                 <div>
                   <Select label="Software Name">
                     <Option>Autodesk AutoCAD LT</Option>
@@ -51,25 +51,25 @@ const Update = () => {
                     <Option>PDF X-Change</Option>
                   </Select>
                 </div>
-                <div className="col-span-2">
+                <div className="col-auto lg:col-span-2">
                   <Input type="text" size="md" label="Software Detail" />
                 </div>
                 <div>
                   <Input type="text" size="md" label="Unit Price" />
                 </div>
-                <div className="col-span-2">
+                <div className="col-auto lg:col-span-2">
                   <Input type="text" size="md" label="Vender" />
                 </div>
-                <div className="col-span-2">
+                <div className="col-auto lg:col-span-2">
                   <Input type="text" size="md" label="Key Activate" />
                 </div>
-                <div className="col-span-2">
+                <div className="col-auto lg:col-span-2">
                   <Input type="text" size="md" label="Name" />
                 </div>
-                <div className="col-span-2">
+                <div className="col-auto lg:col-span-2">
                   <Input type="text" size="md" label="Contact" />
                 </div>
-                <div className="col-span-2">
+                <div className="col-auto lg:col-span-2">
                   <Input type="text" size="md" label="Company" />
                 </div>
                 <div>
@@ -90,7 +90,7 @@ const Update = () => {
                 <div>
                   <Input type="text" size="md" label="Material3" />
                 </div>
-                <div className="col-span-4">
+                <div className="col-auto lg:col-span-4">
                   <Input type="text" size="md" label="Contract" />
                 </div>
               </div>
