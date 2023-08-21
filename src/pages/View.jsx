@@ -8,7 +8,7 @@ import {
   Checkbox,
   Input,
   Select,
-  Option
+  Option,
 } from "@material-tailwind/react";
 
 import { BsBackspace } from "react-icons/bs";
@@ -16,7 +16,7 @@ import { Link } from "react-router-dom";
 import Navbar from "../components/Navbar";
 const View = () => {
   return (
-    <div className="mx-auto container mt-32">
+    <div className="mx-auto container mt-40">
       <Navbar />
       <Card className="font-poppins">
         <CardHeader
@@ -25,7 +25,7 @@ const View = () => {
           className="mb-8 p-6 flex justify-between items-center"
         >
           <Typography variant="h5" color="white">
-          View Detail
+            View Detail
           </Typography>
           <Link to="/license">
             <Button
