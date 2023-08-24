@@ -29,7 +29,7 @@ export default function StickyNavbar() {
         className="p-1 font-normal"
       >
         <Link
-          to="/license"
+          to="/licenselist"
           className="flex items-center font-poppins text-xl hover:text-orange-600"
         >
           Expire License

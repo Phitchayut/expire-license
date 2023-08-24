@@ -9,7 +9,7 @@ import {
 } from "@material-tailwind/react";
 import { AiOutlinePlusCircle } from "react-icons/ai";
 import { Link } from "react-router-dom";
-import Navbar from "../components/Navbar";
+import Navbar from "../../../components/Navbar";
 import {
   AiOutlineEdit,
   AiOutlineDelete,

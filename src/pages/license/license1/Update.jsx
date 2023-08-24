@@ -13,7 +13,7 @@ import {
 
 import { BsBackspace } from "react-icons/bs";
 import { Link } from "react-router-dom";
-import Navbar from "../components/Navbar";
+import Navbar from "../../../components/Navbar";
 const Update = () => {
   return (
     <>
@@ -28,7 +28,7 @@ const Update = () => {
             <Typography variant="h5" color="white">
               Update License
             </Typography>
-            <Link to="/license">
+            <Link to="/license1">
               <Button
                 color="orange"
                 variant="gradient"

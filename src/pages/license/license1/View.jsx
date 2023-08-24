@@ -13,7 +13,7 @@ import {
 
 import { BsBackspace } from "react-icons/bs";
 import { Link } from "react-router-dom";
-import Navbar from "../components/Navbar";
+import Navbar from "../../../components/Navbar";
 const View = () => {
   return (
     <>
@@ -28,7 +28,7 @@ const View = () => {
             <Typography variant="h5" color="white">
               View Detail
             </Typography>
-            <Link to="/license">
+            <Link to="/license1">
               <Button
                 color="orange"
                 variant="gradient"
